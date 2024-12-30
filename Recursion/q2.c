@@ -3,7 +3,7 @@
 void printNum(int x, int n) {
     if(x > n) return;
     printf("%d\n", x);
-    printNum(x+1, n);
+    printNum(x+1, n); 
 }
 
 int main() {
