@@ -6,15 +6,13 @@ int main() {
     printf("Enter n: ");
     scanf("%d", &n);
 
-    int b = n;
-
     int a = 1;
     for(int i = 1; i <=n; i++) {
         
         for(int j = 1; j <= i; j++) {
             int d = a + 64;
             char ch = (char)d;
-            if(b % 3 == 0) {
+            if(i % n == 0) {
                 printf("%d ", j);
             } else {
                 printf("%c ", ch);
